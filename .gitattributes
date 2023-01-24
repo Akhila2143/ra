@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import numpy as np
+import pandas as pd
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (5)/iris.csv")
+df
+
+df.describe()
+
+df.isnull().sum()
+
+del df['Id']
+df
+
+
